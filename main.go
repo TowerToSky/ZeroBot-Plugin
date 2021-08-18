@@ -61,7 +61,7 @@ func main() {
 	zero.Run(zero.Config{
 		NickName:      []string{"椛椛", "ATRI", "atri", "亚托莉", "アトリ"},
 		CommandPrefix: "/",
-		SuperUsers:    []string{"213864964"}, // 必须修改，否则无权限
+		SuperUsers:    []string{"248889195"}, // 必须修改，否则无权限
 		Driver: []zero.Driver{
 			&driver.WSClient{
 				Url:         "ws://127.0.0.1:6700",
